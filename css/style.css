@@ -1,0 +1,694 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* background */
+.back::before {
+    content: "";
+    background: url(https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png) no-repeat center center/cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    opacity: 1.0;
+}
+
+.back {
+    margin-top: 0.7%;
+}
+
+
+/* top nav bar */
+.nav_top {
+    display: flex;
+    border: 2px solid red;
+    background-color: grey;
+}
+
+#navtop_left {
+    float: left;
+}
+
+#navtop_right {
+    float: right;
+
+
+}
+
+#navtop_left ul {
+    display: flex;
+}
+
+#navtop_right ul {
+    display: flex;
+}
+
+#navtop_left ul li {
+    list-style: none;
+    margin: 15px 10px;
+}
+
+#navtop_left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Licorice', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navtop_left ul li a:hover {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#navtop_right ul li {
+    list-style: none;
+    margin: 15px 20px;
+}
+
+#navtop_right ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Licorice', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navtop_right ul li a:hover {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* #line{
+    border-top: 2px solid black;
+    width: 100%;
+    margin-top: 2px;
+} */
+
+/* nav */
+#nav {
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    margin: 15px 0px;
+}
+
+/* nav  logo*/
+#nav #logo img {
+    padding: 10px 0px 0px 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.search {
+    padding: 0px;
+    width: 80%;
+    float: left;
+    margin-left: 3%;
+}
+
+.srch {
+    width: 83%;
+    height: 42px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 2px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding: 12px;
+}
+
+.btn1 {
+    width: 12%;
+    height: 42px;
+    background: black;
+    margin-top: 2px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn2 {
+    width: 100px;
+    height: 42px;
+    background: white;
+    margin-top: 3px;
+    margin-right: 0%;
+    color: black;
+    font-size: 15px;
+}
+
+#btn2 {
+    border: none;
+}
+
+#login_btns {
+    display: flex;
+    float: left;
+    padding-right: 0%;
+}
+
+/* comple nav */
+.white {
+    background-color: #fff;
+}
+
+/* about section */
+.about {
+    height: 850px;
+    padding: 10px 25%;
+
+}
+
+/* utility classes */
+.h-primary {
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Licorice', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 5% 10% 1% 10%;
+    color: white;
+}
+
+.h-secondary {
+    font-family: 'Licorice', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 1% 10%;
+    color: white;
+}
+
+.h-third {
+    font-size: 1.3rem;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.para {
+    font-size: 1.0rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0% 10%;
+    color: white;
+}
+
+/* home */
+.home {
+    height: 380px;
+    padding: 10px 25%;
+    margin-top: 2%;
+
+}
+
+#aboutlogo {
+    height: auto;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .h-secondary {
+    color: black;
+}
+
+.home .para {
+    color: black;
+
+}
+
+#btn {
+    text-align: center;
+    padding: 15px;
+
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1% 1.5%;
+    padding: auto;
+
+}
+
+#singup {
+    background-color: rgb(255, 230, 0);
+    color: black;
+    border: none;
+}
+
+#learn {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+/* last */
+
+.last::before {
+    content: "";
+    background: url(https://static.npmjs.com/3dc2ca3d2e53fc894b904d917cf90015.png) no-repeat center center/cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 1340px;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.last {
+    margin-top: 3%;
+    padding: 10px 25%;
+    height: 280px;
+}
+
+/* thanks */
+.thanks {
+    padding: 10px 25%;
+}
+
+.thanks .h-secondary {
+    margin-top: 1%;
+    margin-bottom: 6%;
+    color: black;
+}
+
+/* footer section */
+footer {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    padding: 70px 80px 60px 80px;
+
+}
+
+footer li {
+    list-style: none;
+    padding: 6px 0px;
+}
+
+footer li a {
+    color: black;
+    text-decoration: none;
+    padding: 100px 0px;
+    font-size: 0.95rem;
+}
+
+
+#footerlogo img {
+    /* margin-top: 20px; */
+    height: 60px;
+    width: 70px;
+}
+
+#githublogo img {
+    height: 60px;
+    width: 70px;
+
+}
+
+
+.logosection {
+    float: left;
+}
+
+#Support {
+    padding-bottom: 10px;
+    margin: 0px 11%;
+    margin-left: 100px;
+}
+
+#Company {
+    margin: 0px 10%;
+    margin-left: 100px;
+}
+
+#Term_Policies {
+    margin: 0px 10%;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 566px)  {
+    .back::before {
+        height: 850px;
+    }
+    #navtop_left {
+        display: none;
+    }
+    #navtop_right{
+        float: left;
+    }
+    #navtop_right ul li {
+        margin: 3px 6px;
+    }
+    #nav {
+        margin: 0%;
+        padding: 3px 0px 10px 8px;
+     
+    }
+   
+    
+    #navtop_right ul li a {
+        padding: 0px 0px;
+        border-radius: 10px;
+        font-size: 0.90rem;
+    }
+    .search {
+        display: none;
+    }
+    #login_btns{
+        float: right;
+        margin-left: 25%;
+    }
+    .about {
+        height: 770px;
+        padding: 3px 1%;
+
+    }
+
+    .h-primary {
+        font-size: 1.0;
+        margin: 0% 0%;
+        padding: 0%;
+    }
+
+    .h-secondary {
+        font-size: 1.0rem;
+        margin: 0% 0.0%;
+    }
+    .h-third{
+        font-size: 0.95rem;
+    }
+
+    .para {
+        margin: 0% 0.0%;
+    }
+    
+    .last::before {
+        margin-top: 1285px;
+        height: 230px;
+    }
+
+    .home {
+        padding: 2px 0.5%;
+
+    }
+
+    .last {
+        padding: 2px 0.5%;
+        height: 200px;
+
+    }
+
+    .thanks {
+        padding: 5px 0.5%;
+
+    }
+    footer{
+        display: block;
+    }
+    .logosection {
+        float: none;
+    }
+    #Support {
+        margin-top: 15px;
+        margin-left: 2px;
+      
+    }
+    
+    #Company {
+        margin-left: 2px;
+    }
+    
+    #Term_Policies {
+        margin-left: 2px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (min-width: 566px) and (max-width:855px) {
+    .back::before {
+        height: 750px;
+    }
+    #navtop_left ul li {
+        list-style: none;
+        margin: 10px 3px;
+    }
+
+    #navtop_right ul li {
+        list-style: none;
+        margin: 10px 3px;
+    }
+
+    #navtop_left ul li a {
+
+        padding: 4px 4px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+    }
+
+    #navtop_right ul li a {
+
+        padding: 4px 4px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+    }
+
+    #nav {
+        margin: 0%;
+    }
+
+    #nav #logo img {
+        padding: 10px 0px 0px 2px;
+        width: 50px;
+        height: 25px;
+    }
+   
+
+    .search {
+        width: 80%;
+        margin-left: 2%;
+    }
+    
+    .srch {
+        width: 65%;
+        margin-top: 2px;
+        font-size: 15px;
+        padding: 8px;
+    }
+    
+    .btn1 {
+        width: 25%;
+        height: 42px;
+        margin-top: 1px;
+        font-size: 15px;
+    }
+    
+    .btn2 {
+        width: 80px;
+        height: 42px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+
+    .last::before {
+        margin-top: 1170px;
+        height: 230px;
+    }
+
+    .about {
+        margin-top: 50px;
+        height: 600px;
+        padding: 5px 2%;
+
+    }
+
+    .home {
+        padding: 5px 2%;
+
+    }
+
+    .last {
+        padding: 10px 2%;
+        height: 200px;
+
+    }
+
+    .thanks {
+        padding: 5px 2%;
+
+    }
+
+    .h-primary {
+        font-size: 2.0;
+        margin: 0.2% 0.6%;
+        padding: 10px;
+    }
+
+    .h-secondary {
+        font-size: 1.1rem;
+        margin: 0.2% 0.6%;
+    }
+
+    .h-third {
+        font-size: 1.1rem;
+    }
+
+    .para {
+        font-size: 0.95rem;
+
+        margin: 0.2% 0.6%;
+    }
+
+    footer {
+        padding: 60px 30px 40px 30px;
+
+    }
+
+    #Support {
+        padding-bottom: 50px;
+        margin: 0px 2%;
+        margin-left: 40px;
+    }
+
+    #Company {
+        margin: 0px 2%;
+        margin-left: 40px;
+    }
+
+    #Term_Policies {
+        margin: 0px 2%;
+        margin-left: 40px;
+    }
+
+}
+
+@media (min-width: 855px) and (max-width:1100px) {
+    
+    .back::before {
+        height: 780px;
+    }
+    .about {
+        height: 700px;
+        padding: 8px 12%;
+
+    }
+
+    .last::before {
+        margin-top: 1260px;
+    }
+
+    .back::before {
+        height: 850px;
+    }
+
+    .home {
+        padding: 8px 12%;
+
+    }
+
+    .last {
+        padding: 8px 12%;
+
+    }
+
+    .thanks {
+        padding: 8px 12%;
+
+    }
+
+    .h-primary {
+        font-size: 3.5;
+        margin: 1% 2%;
+    }
+
+    .h-secondary {
+        font-size: 1.7rem;
+        margin: 1% 2%;
+    }
+
+    .para {
+        margin: 1% 2%;
+    }
+
+    #Support {
+        padding-bottom: 20px;
+        margin: 0px 6%;
+        margin-left: 90px;
+    }
+
+    #Company {
+        margin: 0px 6%;
+        margin-left: 90px;
+    }
+
+    #Term_Policies {
+        margin: 0px 6%;
+        margin-left: 90px;
+    }
+
+}
+
+@media (min-width: 1100px) {
+    .about {
+        height: 700px;
+        padding: 10px 20%;
+
+    }
+
+    .home {
+        padding: 10px 20%;
+
+    }
+
+    .last {
+        padding: 10px 20%;
+
+    }
+
+    .thanks {
+        padding: 10px 20%;
+
+    }
+
+    .h-primary {
+        margin: 3% 5%;
+    }
+
+    .h-secondary {
+        margin: 3% 5%;
+    }
+
+    .para {
+        margin: 3% 5%;
+    }
+
+
+}
